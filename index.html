@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "app.js" defer></script>
+    <title>Beer</title>
+</head>
+<body>
+    <h1>Récupérer une bière par ID</h1>
+    <form method="get" action="index.php">
+      <label for="beer-id">ID de la bière :</label>
+      <input type="text" id="beer-id" name="beer-id">
+      <button type="submit">Rechercher</button>
+    </form>
+    <form>
+        <label for="beername">Nom de la bière :</label>
+        <input type="text" id="beername" name="beername">
+        <button type="submit">Rechercher</button>
+      </form>
+    <div id="beer-details"></div>
+</body>
+</html>
